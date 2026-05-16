@@ -1,0 +1,193 @@
+{
+  "wazuh-ai-correlation" : {
+    "mappings" : {
+      "properties" : {
+        "agent_description" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "agent_id" : {
+          "type" : "keyword"
+        },
+        "agent_ip" : {
+          "type" : "keyword"
+        },
+        "agent_name" : {
+          "type" : "keyword"
+        },
+        "data_id" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "data_protocol" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "data_srcip" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "data_url" : {
+          "type" : "text"
+        },
+        "decoder_name" : {
+          "type" : "text"
+        },
+        "full_log" : {
+          "type" : "text"
+        },
+        "history_T1055" : {
+          "type" : "long"
+        },
+        "history_T1064" : {
+          "type" : "long"
+        },
+        "history_T1068" : {
+          "type" : "long"
+        },
+        "history_T1083" : {
+          "type" : "long"
+        },
+        "history_T1190" : {
+          "type" : "long"
+        },
+        "history_T1210" : {
+          "type" : "long"
+        },
+        "history_T1212" : {
+          "type" : "long"
+        },
+        "history_count_events" : {
+          "type" : "long"
+        },
+        "history_rule_firedtimes" : {
+          "type" : "long"
+        },
+        "history_source_data_id_200" : {
+          "type" : "long"
+        },
+        "history_source_data_id_300" : {
+          "type" : "long"
+        },
+        "history_source_data_id_400" : {
+          "type" : "long"
+        },
+        "history_source_data_id_500" : {
+          "type" : "long"
+        },
+        "id" : {
+          "type" : "text"
+        },
+        "input_type" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "location" : {
+          "type" : "keyword"
+        },
+        "manager_name" : {
+          "type" : "keyword"
+        },
+        "output_1" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "output_2" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "rule_description" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "rule_firedtimes" : {
+          "type" : "long"
+        },
+        "rule_frequency" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "rule_gdpr" : {
+          "type" : "keyword"
+        },
+        "rule_groups" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "rule_hipaa" : {
+          "type" : "keyword"
+        },
+        "rule_id" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "rule_level" : {
+          "type" : "long"
+        },
+        "rule_mail" : {
+          "type" : "boolean"
+        },
+        "rule_mitre_id" : {
+          "type" : "keyword"
+        },
+        "rule_nist_800_53" : {
+          "type" : "keyword"
+        },
+        "rule_pci_dss" : {
+          "type" : "keyword"
+        },
+        "rule_tsc" : {
+          "type" : "keyword"
+        },
+        "timestamp" : {
+          "type" : "date",
+          "format" : "date_optional_time"
+        }
+      }
+    }
+  }
+}

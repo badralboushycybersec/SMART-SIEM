@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### Environment ###
+# Local environment files
+.env
+.env.local
+.env.*.local
+!.env.example  # Keep the example file
+
+# Secrets
+secrets.yml
+vault.yml
+*.key
+*.cert
+*.pem
+
+### Logs ###
+logs/
+*.log
+!logs/.gitkeep  # Keep directory structure
+
+### IDE ###
+# VS Code
+.vscode/
+!.vscode/settings.json.example  # Example settings if needed
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Others
+*.swp
+*.swo
+*.sublime-*
+
+### Docker ###
+docker-compose.override.yml
+docker-compose.yml.version
+docker-data/
+
+### Testing ###
+.coverage
+htmlcov/
+.pytest_cache/
+test-reports/
+
+### OS Generated ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+[Tt]humbs.db
+
+### Database ###
+*.db
+*.sqlite
+*.sql
+*.dump
+
+### Development ###
+.envrc  # direnv
+.cache/
+.venv/
+venv/
+ENV/
+env/
+
+### Static Analysis ###
+.mypy_cache/
+.pytype/

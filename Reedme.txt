@@ -1,0 +1,8 @@
+File info:
+
+Run the producer.py to recieve Security Events from Wazuh Manager and Send it to Kafka server
+
+Run the consumer.py to pull messages from kafka, pull the context of these messages from Elasticsearch in Wazuh SIEM
+and Store Security Events with Classification in Elasticsearch
+
+Run add_to_knowledge_base.py to add calssified records to the knowledge base
